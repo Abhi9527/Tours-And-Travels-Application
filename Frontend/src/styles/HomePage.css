@@ -1,0 +1,47 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  body {
+    background-image: url("https://static.businessinsider.com/image/54cfea306bb3f7d1181b774b/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .container {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  
+  .container h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .container p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
